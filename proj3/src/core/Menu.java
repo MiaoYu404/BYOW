@@ -132,7 +132,7 @@ public class Menu extends Layer{
     public void loadGame() {
         System.out.println("'Load Game' is called.");
         page = 2;
-        Save.loadSave("saves/save1.txt");
+        Save.loadSave("proj3/src/saves/save1.txt");
         startGame();
     }
 

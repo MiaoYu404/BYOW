@@ -21,7 +21,7 @@ public class Tileset {
     public static final TETile AVATAR = new TETile('@', Color.white, Color.black, "you", 0);
 
     public static final TETile WALL = new TETile(
-            '#', new Color(216, 128, 128), Color.darkGray, "wall", "src/assets/wall.png", 1);
+            '#', new Color(216, 128, 128), Color.darkGray, "wall", "proj3/src/assets/wall.png", 1);
     public static final TETile WALL_ORANGE = new TETile(
             '#', new Color(216, 128, 128), Color.orange, "wall",31);
     public static final TETile WALL_BLUE = new TETile(
@@ -30,9 +30,9 @@ public class Tileset {
             '#', new Color(216, 128, 128), Color.pink, "wall",33);
 
     public static final TETile FLOOR = new TETile(
-            '·', new Color(128, 192, 128), Color.black, "floor", "src/assets/floor.png",2);
+            '·', new Color(128, 192, 128), Color.black, "floor", "proj3/src/assets/floor.png",2);
     public static final TETile VOID = new TETile(
-            ' ', Color.black, Color.white, "nothing", "src/assets/void.png", 3);
+            ' ', Color.black, Color.white, "nothing", "proj3/src/assets/void.png", 3);
     public static final TETile GRASS = new TETile(
             '"', Color.green, Color.black, "grass", 4);
     public static final TETile WATER = new TETile(

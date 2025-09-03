@@ -68,7 +68,7 @@ public class Save {
 
     public static void saveFile() {
         System.out.println("'Save.saveFile()' is called.");
-        Out file = new Out("src/saves/save1.txt");
+        Out file = new Out("proj3/src/saves/save1.txt");
 
         saveSeed(file);
         saveSize(file);

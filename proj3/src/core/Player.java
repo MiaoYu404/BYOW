@@ -18,7 +18,7 @@ public class Player extends Layer{
     // Constructors
     public Player(Coordinate coordinate, World world) {
         this.coordinate = coordinate;
-        this.filePath = "src/assets/images/cat.png";
+        this.filePath = "proj3/src/assets/images/cat.png";
         this.world = world;
         this.avatar = Tileset.AVATAR;
     }
